@@ -1,0 +1,18 @@
+[project]
+name = "script-doctor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Osama Ata", email = "me@osamata.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "python-docx>=1.1.2",
+    "streamlit>=1.45.0",
+]
+optional-dependencies = { dev = ["watchdog", "ruff"] }
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

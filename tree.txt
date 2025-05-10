@@ -1,0 +1,10 @@
+.
+├── pyproject.toml
+├── README.md
+├── src
+│   └── script_doctor
+│       ├── __init__.py
+│       └── py.typed
+└── tree.txt
+
+3 directories, 5 files
